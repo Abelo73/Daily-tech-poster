@@ -30,5 +30,5 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-          GROUP_ID: ${{ secrets.GROUP_ID }} # Or numeric ID like -1001234567890
+          GROUP_ID: ${{ secrets.GROUP_ID }}
         run: python daily_poster.py
