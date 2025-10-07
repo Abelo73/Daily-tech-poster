@@ -1,0 +1,113 @@
+2025-10-07 23:29:22,476 - INFO - Starting daily_poster.py
+2025-10-07 23:29:22,477 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:29:22,477 - INFO - CHANNEL_ID loaded: @https://t.me/dailyAiPos
+2025-10-07 23:29:22,477 - INFO - Initializing Telegram bot
+2025-10-07 23:29:22,482 - INFO - Fetching article from RSS feed: https://feeds.bbci.co.uk/news/technology/rss.xml
+2025-10-07 23:29:23,292 - INFO - Selected article: Two arrested over nursery cyber-attack
+2025-10-07 23:29:23,293 - INFO - Sending message to chat ID @https://t.me/dailyAiPos: 📰 *Two arrested over nursery cyber-attack*
+
+Pair held by police investigating reports of attack on a...
+2025-10-07 23:29:23,845 - ERROR - Failed to send message: Chat not found
+Traceback (most recent call last):
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/daily_poster.py", line 63, in post_to_telegram
+    bot.send_message(chat_id=CHANNEL_ID, text=message, parse_mode="Markdown")
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2025-10-07 23:29:23,850 - CRITICAL - Script failed: Chat not found
+Traceback (most recent call last):
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/daily_poster.py", line 71, in <module>
+    post_to_telegram()
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/daily_poster.py", line 63, in post_to_telegram
+    bot.send_message(chat_id=CHANNEL_ID, text=message, parse_mode="Markdown")
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/abel/PROJECTS/AUTOMATIONS/dailyPost/venv/lib/python3.12/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2025-10-07 23:35:17,954 - INFO - Starting daily_poster.py
+2025-10-07 23:35:17,954 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:35:17,954 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:35:17,955 - INFO - Initializing Telegram bot
+2025-10-07 23:35:17,960 - INFO - Fetching article from RSS feed: https://feeds.reuters.com/Reuters/worldNews
+2025-10-07 23:35:18,120 - WARNING - No entries found in the RSS feed.
+2025-10-07 23:35:18,121 - INFO - No article found, using default message
+2025-10-07 23:35:18,122 - INFO - Sending message to chat ID @DailyTechNews74: No news found today....
+2025-10-07 23:35:20,069 - INFO - Message sent successfully
+2025-10-07 23:35:49,044 - INFO - Starting daily_poster.py
+2025-10-07 23:35:49,044 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:35:49,044 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:35:49,044 - INFO - Initializing Telegram bot
+2025-10-07 23:35:49,049 - INFO - Fetching article from RSS feed: https://feeds.bbci.co.uk/news/technology/rss.xml
+2025-10-07 23:35:50,443 - INFO - Selected article: Two arrested over nursery cyber-attack
+2025-10-07 23:35:50,444 - INFO - Sending message to chat ID @DailyTechNews74: 📰 *Two arrested over nursery cyber-attack*
+
+Pair held by police investigating reports of attack on a...
+2025-10-07 23:35:52,072 - INFO - Message sent successfully
+2025-10-07 23:36:19,402 - INFO - Starting daily_poster.py
+2025-10-07 23:36:19,402 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:36:19,403 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:36:19,403 - INFO - Initializing Telegram bot
+2025-10-07 23:36:19,409 - INFO - Fetching article from RSS feed: https://feeds.reuters.com/Reuters/worldNews
+2025-10-07 23:36:19,480 - WARNING - No entries found in the RSS feed.
+2025-10-07 23:36:19,481 - INFO - No article found, using default message
+2025-10-07 23:36:19,481 - INFO - Sending message to chat ID @DailyTechNews74: No news found today....
+2025-10-07 23:36:20,239 - INFO - Message sent successfully
+2025-10-07 23:36:28,977 - INFO - Starting daily_poster.py
+2025-10-07 23:36:28,977 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:36:28,977 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:36:28,978 - INFO - Initializing Telegram bot
+2025-10-07 23:36:28,982 - INFO - Fetching article from RSS feed: https://techcrunch.com/feed/
+2025-10-07 23:36:29,780 - INFO - Selected article: Google launches its AI vibe-coding app Opal in 15 more countries
+2025-10-07 23:36:29,781 - INFO - Sending message to chat ID @DailyTechNews74: 📰 *Google launches its AI vibe-coding app Opal in 15 more countries*
+
+The app, which lets you create...
+2025-10-07 23:36:30,547 - INFO - Message sent successfully
+2025-10-07 23:37:11,896 - INFO - Starting daily_poster.py
+2025-10-07 23:37:11,896 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:37:11,897 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:37:11,897 - INFO - Initializing Telegram bot
+2025-10-07 23:37:11,902 - INFO - Fetching article from RSS feed: https://techcrunch.com/feed/
+2025-10-07 23:37:13,342 - INFO - Selected article: Google launches its AI vibe-coding app Opal in 15 more countries
+2025-10-07 23:37:13,343 - INFO - Sending message to chat ID @DailyTechNews74: 📰 *Google launches its AI vibe-coding app Opal in 15 more countries*
+
+The app, which lets you create...
+2025-10-07 23:37:14,317 - INFO - Message sent successfully
+2025-10-07 23:37:29,702 - INFO - Starting daily_poster.py
+2025-10-07 23:37:29,702 - INFO - TELEGRAM_TOKEN loaded: Yes
+2025-10-07 23:37:29,702 - INFO - CHANNEL_ID loaded: @DailyTechNews74
+2025-10-07 23:37:29,703 - INFO - Initializing Telegram bot
+2025-10-07 23:37:29,707 - INFO - Fetching article from RSS feed: https://techcrunch.com/feed/
+2025-10-07 23:37:30,466 - INFO - Selected article: Google launches its AI vibe-coding app Opal in 15 more countries
+2025-10-07 23:37:30,467 - INFO - Sending message to chat ID @DailyTechNews74: 📰 *Google launches its AI vibe-coding app Opal in 15 more countries*
+
+The app, which lets you create...
+2025-10-07 23:37:31,112 - INFO - Message sent successfully
